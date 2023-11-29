@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  DATABASE_NAME: todo
+  DATABASE_PASSWORD: redhat123
+  DATABASE_SVC_HOSTNAME: tododb
+  DATABASE_USER: todoapp
+kind: ConfigMap
+metadata:
+# creationTimestamp: "2023-11-29T19:18:16Z"
+  name: db-config
+  namespace: developer-todo-migrate
+# resourceVersion: "3732806"
+# uid: eaf0b2a7-3a30-4972-836f-9e4f000a66d5
